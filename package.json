@@ -1,6 +1,6 @@
 {
 	"name": "ismobilehook",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "a function that returns whether device is mobile or not",
 	"main": "index.js",
 	"peerDependencies": {
