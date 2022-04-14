@@ -1,0 +1,13 @@
+{
+	"name": "ismobilehook",
+	"version": "1.0.0",
+	"description": "a function which returns whether device is mobile or not",
+	"main": "index.js",
+	"scripts": {},
+	"author": "Varun Kedia",
+	"license": "ISC",
+	"peerDependencies": {
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0"
+	}
+}
