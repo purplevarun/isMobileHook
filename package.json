@@ -1,13 +1,28 @@
 {
 	"name": "ismobilehook",
 	"version": "1.0.0",
-	"description": "a function which returns whether device is mobile or not",
+	"description": "a function that returns whether device is mobile or not",
 	"main": "index.js",
-	"scripts": {},
-	"author": "Varun Kedia",
-	"license": "ISC",
 	"peerDependencies": {
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0"
-	}
+	},
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/purplevarun/isMobileHook.git"
+	},
+	"keywords": [
+		"ismobile",
+		"hook",
+		"ismobilehook",
+		"varun",
+		"kedia"
+	],
+	"author": "Varun kedia",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/purplevarun/isMobileHook/issues"
+	},
+	"homepage": "https://github.com/purplevarun/isMobileHook#readme"
 }
