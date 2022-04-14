@@ -8,16 +8,22 @@
 
         yarn add ismobilehook
 
-# USAGE
+# Usage
 
         import React from "react";
-        import { isMobile } from "ismobilehook"; // importing the function
+        // importing the function
+        import { isMobile } from "ismobilehook";
 
         const App = () => {
             return (
                 <h1>
-                    {isMobile()?"Mobile":"Desktop"}  // calling the function
+                    // calling the function
+                    {isMobile() ? "Mobile" : "Desktop"} // returns a boolean value
                 </h1>
             )
         }
         export default App;
+
+### Author - Varun Kedia (github.com/purplevarun)
+
+### Source Code : https://github.com/purplevarun/isMobileHook
