@@ -8,7 +8,7 @@ const IsMobile = () => {
 	};
 	useEffect(() => {
 		windowResize();
-		return () => windowResize;
+		return () => windowResize();
 	});
 	return windowWidth <= 768;
 };
