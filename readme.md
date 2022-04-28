@@ -1,3 +1,10 @@
+[![version](https://img.shields.io/npm/v/ismobilehook.svg)](https://www.npmjs.com/package/ismobilehook)
+[![minified size](https://img.shields.io/bundlephobia/min/ismobilehook.svg)](https://www.npmjs.com/package/ismobilehook)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/ismobilehook.svg)](https://www.npmjs.com/package/ismobilehook)
+[![downloads](https://img.shields.io/npm/dt/ismobilehook.svg)](https://www.npmjs.com/package/ismobilehook)
+
+# Demo
+
 # Installation
 
 ## For NPM
@@ -25,5 +32,3 @@
         export default App;
 
 ### Author - Varun Kedia (github.com/purplevarun)
-
-### Source Code : https://github.com/purplevarun/isMobileHook
