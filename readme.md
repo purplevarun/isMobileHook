@@ -5,6 +5,8 @@
 
 # Demo
 
+<img src="https://github.com/purplevarun/isMobileHook/blob/main/demo.gif?raw=true" alt="Demo Gif (visit GH page if not rendered)"/>
+
 # Installation
 
 ## For NPM
