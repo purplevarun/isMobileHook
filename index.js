@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from "react";
-const IsMobile = () => {
+import { useEffect, useState } from "react";
+
+const useIsMobile = (recievedWidth) => {
+	const minimumWidth = recievedWidth ? recievedWidth : 768;
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 	const addWindowResize = () => {
 		window.addEventListener("resize", () => {
@@ -15,7 +17,7 @@ const IsMobile = () => {
 		addWindowResize();
 		return () => removeWindowResize();
 	});
-	return windowWidth <= 768;
+	return windowWidth <= minimumWidth;
 };
 
-export { IsMobile as isMobile };
+export default useIsMobile;
